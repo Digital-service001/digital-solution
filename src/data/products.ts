@@ -1,4 +1,4 @@
-﻿export interface ProductItem {
+export interface ProductItem {
   id: string;
   name: string;
   type: "digital_product" | "digital_service";

@@ -1,4 +1,4 @@
-﻿# Digital-Solution — Digital Products & Web Services Storefront
+# Digital-Solution — Digital Products & Web Services Storefront
 
 A high-converting, modern digital storefront designed specifically to pass **Creem Merchant Compliance & Underwriting Review**. Ready for one-click deployment to **Vercel** via **GitHub**.
 

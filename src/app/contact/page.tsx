@@ -30,7 +30,7 @@ export default function ContactPage() {
           <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/50">
             <h3 className="text-base font-bold text-white mb-2">Service Fulfillment Desk</h3>
             <p className="text-xs text-slate-400 mb-2">
-              For active service orders ($98, $116, $142, $229), track your deliverable progress or submit credentials via:
+              For active service orders ($110, $116, $142, $229), track your deliverable progress or submit credentials via:
             </p>
             <a href="mailto:delivery@digital-solution.com" className="text-indigo-400 font-semibold text-sm hover:underline">
               delivery@digital-solution.com
@@ -70,7 +70,7 @@ export default function ContactPage() {
               <label className="block text-slate-300 font-medium mb-1">Inquiry Type</label>
               <select className="w-full px-3 py-2 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500">
                 <option>Product Download Support</option>
-                <option>Technical Service Order ($98 - $229)</option>
+                <option>Technical Service Order ($110 - $229)</option>
                 <option>Commercial Licensing Question</option>
                 <option>Refund Request</option>
               </select>

@@ -23,8 +23,8 @@ export default function TermsPage() {
           <h2 className="text-lg font-bold text-white mb-2">2. Products & Services Offered</h2>
           <p className="mb-2">Digital-Solution provides two distinct classifications of deliverables:</p>
           <ul className="list-disc pl-5 space-y-1 text-slate-300">
-            <li><strong>Digital Products (Instant Fulfillment):</strong> Downloadable files including icon sets, Figma design system files, Notion workspace templates, and Next.js/Tailwind source code templates ($12 to $88 USD).</li>
-            <li><strong>Fixed-Scope Technical Services:</strong> Specialized technical audits, code security architecture reviews, turnkey deployment assistance, and website setup packages ($98 to $229 USD).</li>
+            <li><strong>Digital Products (Instant Fulfillment):</strong> Downloadable files including icon sets, architecture diagrams, Figma design systems, Notion workspace templates, and Next.js/Tailwind source code templates ($12 to $88 USD).</li>
+            <li><strong>Fixed-Scope Technical Services:</strong> Specialized technical audits, code security architecture reviews, turnkey deployment assistance, and website setup packages ($110 to $229 USD).</li>
           </ul>
         </section>
 

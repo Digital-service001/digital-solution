@@ -8,7 +8,7 @@ export interface ProductItem {
   longDescription: string;
   deliverySLA: string;
   deliverables: string[];
-  creemCheckoutUrl: string; // Replace with your real Creem product checkout link
+  creemCheckoutUrl: string;
   features: string[];
 }
 
@@ -33,21 +33,57 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     ]
   },
   {
+    id: "dev-cheatsheets-kit",
+    name: "Developer Architecture & Cheatsheet Kit",
+    type: "digital_product",
+    price: 22,
+    badge: "New Release",
+    shortDescription: "High-resolution architecture blueprints, API design patterns, and CLI reference guides.",
+    longDescription: "Curated reference posters, system architecture templates, and clean PDF cheatsheets covering database indexing, caching strategies, and REST API conventions.",
+    deliverySLA: "Instant Download Link via Email",
+    deliverables: ["High-Res Architecture Vector Graphics", "Developer Reference Cheatsheets (PDF)", "Print-Ready Wall Posters"],
+    creemCheckoutUrl: "https://creem.io/checkout/placeholder-22",
+    features: [
+      "Vector-based architecture diagrams",
+      "Covers Docker, SQL indexing, and HTTP status flows",
+      "Editable Figma diagram sources included",
+      "Instant digital PDF and SVG download"
+    ]
+  },
+  {
     id: "notion-launch-os",
     name: "Productivity & Launch OS Template",
     type: "digital_product",
-    price: 23,
+    price: 24,
     badge: "Best Seller",
     shortDescription: "Complete Notion operating system for managing product roadmaps, sprints, and launches.",
     longDescription: "Structured Notion workspace with sprint boards, milestone tracking, automated release checklists, and client onboarding templates.",
     deliverySLA: "Instant One-Click Duplicate Link",
     deliverables: ["Notion OS Duplicate URL", "Quickstart Implementation Guide (PDF)", "Video Walkthrough"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-23",
+    creemCheckoutUrl: "https://creem.io/checkout/placeholder-24",
     features: [
       "Agile sprint planner & backlog",
       "Pre-configured client portal views",
       "Automated task progress calculations",
       "Works on free personal Notion accounts"
+    ]
+  },
+  {
+    id: "tailwind-block-library",
+    name: "Tailwind UI Responsive Block Library",
+    type: "digital_product",
+    price: 38,
+    badge: "UI Toolkit",
+    shortDescription: "50+ modular, copy-paste Tailwind CSS UI sections (Hero, Pricing, Testimonials, Footers).",
+    longDescription: "Hand-coded, semantic HTML and Tailwind CSS components designed for instant copy-paste into Next.js, React, or standard HTML projects.",
+    deliverySLA: "Instant Code Library Access",
+    deliverables: ["Copy-Paste Component Library", "React / JSX Snippets", "Dark Mode Classes & Tokens"],
+    creemCheckoutUrl: "https://creem.io/checkout/placeholder-38",
+    features: [
+      "50+ accessible Tailwind CSS section components",
+      "Fully responsive across mobile, tablet, and desktop",
+      "Zero extra dependencies or external CSS",
+      "Clean semantic markup ready for Next.js"
     ]
   },
   {
@@ -134,7 +170,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     deliverables: ["Complete Master ZIP (All Code + Design Files)", "Figma Master File", "VIP Discord / Email Support"],
     creemCheckoutUrl: "https://creem.io/checkout/placeholder-88",
     features: [
-      "Includes $160+ worth of standalone assets",
+      "Includes $180+ worth of standalone assets",
       "Synchronized design tokens matching code classes",
       "Unlimited project commercial license",
       "Free future updates included forever"
@@ -146,13 +182,13 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     id: "speed-seo-audit",
     name: "Website Speed & SEO Technical Audit",
     type: "digital_service",
-    price: 98,
+    price: 110,
     badge: "Service (24-48h SLA)",
     shortDescription: "In-depth technical report analyzing Core Web Vitals, bottlenecks, and on-page SEO errors.",
     longDescription: "A personalized manual review of your website performance. We identify server bottlenecks, render-blocking scripts, unoptimized assets, and technical search indexing issues.",
     deliverySLA: "24–48 Business Hours Delivery",
     deliverables: ["10-15 Page Comprehensive Audit PDF", "Prioritized Action Checklist", "Lighthouse & Network Waterfall Breakdown"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-98",
+    creemCheckoutUrl: "https://creem.io/checkout/placeholder-110",
     features: [
       "Manual human analysis (no generic automated exports)",
       "Actionable code snippets for performance fixes",

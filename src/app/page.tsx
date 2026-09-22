@@ -34,7 +34,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-4 md:mt-0 text-xs font-mono text-slate-400 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2">
-            Pricing: $12 • $23 • $39 • $44 • $66 • $76 • $88
+            Pricing: $12 • $22 • $24 • $38 • $39 • $44 • $66 • $76 • $88
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
               </p>
             </div>
             <div className="mt-4 md:mt-0 text-xs font-mono text-slate-400 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2">
-              Fixed Fees: $98 • $116 • $142 • $229
+              Fixed Fees: $110 • $116 • $142 • $229
             </div>
           </div>
 

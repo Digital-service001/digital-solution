@@ -35,7 +35,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#services" className="hover:text-white transition-colors">
-                  Technical Audits ($98 - $116)
+                  Technical Audits ($110 - $116)
                 </Link>
               </li>
               <li>

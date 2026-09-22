@@ -8,7 +8,7 @@ export default function FaqSection() {
     },
     {
       q: "How does fixed-scope service fulfillment work?",
-      a: "When you purchase a technical service ($98, $116, $142, or $229), you will be redirected to an onboarding questionnaire where you submit your website URL, repository link, or setup credentials securely. Our senior engineers begin review within 12 hours and deliver final reports or deployments within the stated 24-72h SLA."
+      a: "When you purchase a technical service ($110, $116, $142, or $229), you will be redirected to an onboarding questionnaire where you submit your website URL, repository link, or setup credentials securely. Our senior engineers begin review within 12 hours and deliver final reports or deployments within the stated 24-72h SLA."
     },
     {
       q: "What is your refund policy?",

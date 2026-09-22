@@ -32,7 +32,7 @@ export default function RefundPage() {
         </section>
 
         <section>
-          <h2 className="text-lg font-bold text-white mb-2">3. Fixed-Scope Technical Services ($98 – $229)</h2>
+          <h2 className="text-lg font-bold text-white mb-2">3. Fixed-Scope Technical Services ($110 – $229)</h2>
           <p className="mb-2">
             For technical audits, code reviews, and turnkey deployment packages:
           </p>

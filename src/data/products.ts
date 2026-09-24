@@ -24,7 +24,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "A comprehensive developer and designer icon library containing 300+ customizable vector glyphs in SVG, PNG, and ready-to-import Figma components.",
     deliverySLA: "Instant Download Link via Email",
     deliverables: ["SVG Source Files (300+ items)", "Figma Library (.fig)", "Optimized React Icon Components"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-12",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_7OrGRqgYa0RqUnO4QXIrqD",
     features: [
       "Pixel-perfect 24x24 grid",
       "Compatible with Tailwind CSS & Lucide styles",
@@ -42,7 +42,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Curated reference posters, system architecture templates, and clean PDF cheatsheets covering database indexing, caching strategies, and REST API conventions.",
     deliverySLA: "Instant Download Link via Email",
     deliverables: ["High-Res Architecture Vector Graphics", "Developer Reference Cheatsheets (PDF)", "Print-Ready Wall Posters"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-22",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_6q4A7LM9HbPEcfi1AzqMZA",
     features: [
       "Vector-based architecture diagrams",
       "Covers Docker, SQL indexing, and HTTP status flows",
@@ -60,7 +60,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Structured Notion workspace with sprint boards, milestone tracking, automated release checklists, and client onboarding templates.",
     deliverySLA: "Instant One-Click Duplicate Link",
     deliverables: ["Notion OS Duplicate URL", "Quickstart Implementation Guide (PDF)", "Video Walkthrough"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-24",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_1Z8wSIQRuuho02Mjp1yb2D",
     features: [
       "Agile sprint planner & backlog",
       "Pre-configured client portal views",
@@ -78,7 +78,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Hand-coded, semantic HTML and Tailwind CSS components designed for instant copy-paste into Next.js, React, or standard HTML projects.",
     deliverySLA: "Instant Code Library Access",
     deliverables: ["Copy-Paste Component Library", "React / JSX Snippets", "Dark Mode Classes & Tokens"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-38",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_laHD3F04nslBZvTZhkB6r",
     features: [
       "50+ accessible Tailwind CSS section components",
       "Fully responsive across mobile, tablet, and desktop",
@@ -96,7 +96,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Production-ready Figma component architecture with auto-layout v5, responsive breakpoints, accessible contrast tokens, and dark/light modes.",
     deliverySLA: "Instant Figma File Access",
     deliverables: ["Figma Design Library (.fig)", "Typography & Color Tokens Guide", "Component Documentation"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-39",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_3zQsEsatQU8xvhxzZmU3Q1",
     features: [
       "120+ production-grade components",
       "Auto-layout 5.0 with responsive constraints",
@@ -114,7 +114,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "A turnkey landing page codebase complete with hero variations, social proof grids, pricing tables, FAQ accordions, and SEO meta tags.",
     deliverySLA: "Instant GitHub Repo & ZIP Access",
     deliverables: ["Clean Next.js 14 Source Code", "Tailwind CSS Configuration", "Vercel Deploy Configuration"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-44",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_3VCv5K6hmBM7BpcJvxIBxq",
     features: [
       "100/100 Google Lighthouse performance score",
       "Zero third-party bloat or tracking scripts",
@@ -132,7 +132,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "An expansive 8-page website template containing blog layouts, detailed feature pages, customer case studies, comparison tables, and user dashboard layouts.",
     deliverySLA: "Instant Download & Repo Access",
     deliverables: ["Full Multi-Page Next.js Codebase", "Markdown/MDX Blog Setup", "Documentation & Guide"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-66",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_oO6LsTYe8OBNWx2rKrNk0",
     features: [
       "8 polished page templates ready for production",
       "Built-in MDX blogging system",
@@ -150,7 +150,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Production-ready backend architecture featuring secure session management, role-based access control (RBAC), Prisma ORM migrations, and webhook handlers.",
     deliverySLA: "Instant GitHub Access & Archive",
     deliverables: ["Node.js / Next.js API Routes", "Prisma Database Schemas", "Security & Deployment Documentation"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-76",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_Nsal5TKiDGBnRYKgMqvOX",
     features: [
       "Session-based and JWT token authentication",
       "PostgreSQL and SQLite database schemas",
@@ -168,7 +168,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Everything you need to conceptualize, design, and ship web applications. Includes the full Figma design system, the multi-page template, and the icon bundle.",
     deliverySLA: "Instant Master Archive Download",
     deliverables: ["Complete Master ZIP (All Code + Design Files)", "Figma Master File", "VIP Discord / Email Support"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-88",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_2CvfXtFz5vQcgpQpU0dqYX",
     features: [
       "Includes $180+ worth of standalone assets",
       "Synchronized design tokens matching code classes",
@@ -188,7 +188,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "A personalized manual review of your website performance. We identify server bottlenecks, render-blocking scripts, unoptimized assets, and technical search indexing issues.",
     deliverySLA: "24–48 Business Hours Delivery",
     deliverables: ["10-15 Page Comprehensive Audit PDF", "Prioritized Action Checklist", "Lighthouse & Network Waterfall Breakdown"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-110",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_z1dCu9F4rqS5VbHYEsrZm",
     features: [
       "Manual human analysis (no generic automated exports)",
       "Actionable code snippets for performance fixes",
@@ -206,7 +206,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "A confidential review of up to 10,000 lines of code. We inspect dependency vulnerabilities, secret leakage, authentication pitfalls, and architectural bottlenecks.",
     deliverySLA: "48 Business Hours Delivery",
     deliverables: ["Executive Security & Architecture Summary", "Line-by-line GitHub PR / Code Annotations", "Dependency Health Matrix"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-116",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_7LYlH8vMECFBOVLhT5cbYF",
     features: [
       "Strict confidentiality (NDA compliant)",
       "Focus on auth, data validation & API security",
@@ -224,7 +224,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Skip the technical configuration. Our engineers will clone the template to your GitHub account, configure your environment variables, connect your custom domain DNS, and verify production deployment.",
     deliverySLA: "48–72 Business Hours Delivery",
     deliverables: ["Configured & Deployed Production URL", "Connected Custom Domain DNS", "Handoff Walkthrough Video"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-142",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_4LmC8NCR7pA5oH7OdrtWoI",
     features: [
       "Full GitHub and Vercel setup handled end-to-end",
       "SSL certificate configuration & DNS verification",
@@ -242,7 +242,7 @@ export const PRODUCTS_CATALOG: ProductItem[] = [
     longDescription: "Our flagship hands-on implementation service. Includes template setup, custom branding (logo, colors, typography), copy placement, contact form wiring, SEO setup, and live deployment on Vercel.",
     deliverySLA: "72 Business Hours Delivery",
     deliverables: ["Fully Branded Production Web Application", "Domain & Analytics Setup", "14-Day Post-Launch Bugfix Guarantee", "Dedicated Support Channel"],
-    creemCheckoutUrl: "https://creem.io/checkout/placeholder-229",
+    creemCheckoutUrl: "https://www.creem.io/payment/prod_43nIUIqSwWEzMR7i5hlsIg",
     features: [
       "Complete custom visual theme applied to template",
       "Up to 5 pages populated with your provided content",

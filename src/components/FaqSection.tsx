@@ -4,11 +4,11 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "How are digital product downloads delivered?",
-      a: "Immediately upon successful payment through Creem, you will receive an automated confirmation email with your direct download link and GitHub repository access instructions. Access is permanent and includes lifetime file updates."
+      a: "Immediately upon successful payment through Creem, you will receive an automated confirmation email with your direct download link and repository access instructions. Access is permanent and includes lifetime file updates."
     },
     {
       q: "How does fixed-scope service fulfillment work?",
-      a: "When you purchase a technical service ($110, $116, $142, or $229), you will be redirected to an onboarding questionnaire where you submit your website URL, repository link, or setup credentials securely. Our senior engineers begin review within 12 hours and deliver final reports or deployments within the stated 24-72h SLA."
+      a: "When you purchase a technical service ($110, $116, $142, or $229), you will be redirected to an onboarding intake questionnaire where you submit your website URL, repository link, or setup credentials securely. Our senior engineers begin review within 12 hours and deliver final reports or deployments within the stated 24-72h SLA."
     },
     {
       q: "What is your refund policy?",
@@ -25,20 +25,23 @@ export default function FaqSection() {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-slate-950 text-white border-t border-slate-800">
+    <section id="faq" className="py-20 bg-slate-50/60 text-slate-900 border-t border-slate-200/80">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
-          <h2 className="text-3xl font-extrabold tracking-tight">Frequently Asked Questions</h2>
-          <p className="mt-2 text-slate-400 text-sm">
+          <div className="inline-block px-3 py-1 rounded-md bg-sky-50 border border-sky-200 text-sky-700 text-xs font-mono font-medium mb-3">
+            Common Inquiries
+          </div>
+          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900">Frequently Asked Questions</h2>
+          <p className="mt-2 text-slate-600 text-sm">
             Everything you need to know about our digital deliverables, fulfillment turnaround, and guarantees.
           </p>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4">
           {faqs.map((faq, idx) => (
-            <div key={idx} className="p-6 rounded-xl border border-slate-800 bg-slate-900/50">
-              <h3 className="text-base font-bold text-white mb-2">{faq.q}</h3>
-              <p className="text-sm text-slate-300 leading-relaxed">{faq.a}</p>
+            <div key={idx} className="p-6 rounded-2xl border border-slate-200/80 bg-white shadow-xs">
+              <h3 className="text-base font-bold text-slate-900 mb-2">{faq.q}</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{faq.a}</p>
             </div>
           ))}
         </div>

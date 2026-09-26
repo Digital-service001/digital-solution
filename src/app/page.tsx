@@ -77,7 +77,7 @@ export default function Home() {
             Why Creators & Startups Choose Digital Solution
           </h2>
           <p className="mt-3 text-slate-600 text-sm leading-relaxed">
-            We build production-grade design systems, Next.js application boilerplates, and developer toolkits so you can launch faster with full codebase ownership.
+            We provide production-grade design systems, Next.js application boilerplates, and developer toolkits so you can launch faster with full codebase ownership.
           </p>
         </div>
 
@@ -184,7 +184,7 @@ export default function Home() {
               Modern Web Codebases & Production Digital Products
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              At <strong>Digital Solution</strong>, we specialize in developing high-performance web templates, responsive Figma design kits, and enterprise developer boilerplates. Whether you need a high-converting Next.js landing page, an accessible Figma design system compliant with WCAG standards, or a production-ready SaaS authentication boilerplate, our digital products are built for modern web standards.
+              At <strong>Digital Solution</strong>, we provide high-performance web templates, responsive Figma design kits, and enterprise developer boilerplates. Whether you need a high-converting Next.js landing page, an accessible Figma design system compliant with WCAG standards, or a production-ready SaaS authentication boilerplate, our digital products are built for modern web standards.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-2 text-xs">
               <div className="p-4 rounded-xl border border-slate-200 bg-slate-50/50">

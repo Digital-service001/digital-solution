@@ -17,8 +17,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-600 max-w-sm leading-relaxed text-xs">
-              Specialized digital software studio providing vetted Figma UI systems, production Next.js boilerplates, and developer toolkits for modern tech ventures.
-            </p>
+             A premier marketplace for instant-download Next.js boilerplates, UI design systems, and developer toolkits.
+              </p>
             
             {/* Prominent Support Email */}
             <div className="p-3 rounded-xl bg-white border border-slate-200 inline-block">

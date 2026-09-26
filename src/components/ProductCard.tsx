@@ -1,12 +1,16 @@
 import React from "react";
 import { ProductItem } from "@/data/products";
 
-export default function ProductCard({ item }: { item: ProductItem }) {
+export default function ProductCard({ item, highlight = false }: { item: ProductItem; highlight?: boolean }) {
   return (
-    <div className="flex flex-col h-full bg-white border border-slate-200/90 rounded-2xl p-6 hover:border-sky-500/50 transition-all duration-300 shadow-sm hover:shadow-md">
+    <div className={`flex flex-col h-full bg-white border rounded-2xl p-6 transition-all duration-300 shadow-sm hover:shadow-md ${
+      highlight ? "border-indigo-300 hover:border-indigo-500 ring-1 ring-indigo-500/10" : "border-slate-200/90 hover:border-sky-500/50"
+    }`}>
       <div className="flex items-start justify-between gap-4 mb-4">
         {item.badge ? (
-          <span className="inline-block px-2.5 py-1 text-xs font-semibold text-sky-700 bg-sky-50 border border-sky-200/80 rounded-full font-mono">
+          <span className={`inline-block px-2.5 py-1 text-xs font-semibold rounded-full font-mono ${
+            highlight ? "text-indigo-700 bg-indigo-50 border border-indigo-200/80" : "text-sky-700 bg-sky-50 border border-sky-200/80"
+          }`}>
             {item.badge}
           </span>
         ) : <div />}
@@ -25,7 +29,7 @@ export default function ProductCard({ item }: { item: ProductItem }) {
           <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
-          Delivery SLA: {item.deliverySLA}
+          Delivery: {item.deliverySLA}
         </div>
         <div className="text-slate-600">
           <span className="text-slate-900 font-medium">Includes:</span> {item.deliverables.join(" • ")}
@@ -49,12 +53,14 @@ export default function ProductCard({ item }: { item: ProductItem }) {
         href={item.creemCheckoutUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-full py-2.5 px-4 text-center rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm shadow-sm transition-colors block"
+        className={`w-full py-2.5 px-4 text-center rounded-xl text-white font-bold text-sm shadow-sm transition-colors block ${
+          highlight ? "bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500" : "bg-slate-900 hover:bg-slate-800"
+        }`}
       >
         Buy Now (${item.price})
       </a>
       <span className="text-[10px] text-center text-slate-400 mt-2.5 block font-mono">
-        Secured by Creem • Instant fulfillment link
+        Secured by Creem • Instant download link
       </span>
     </div>
   );

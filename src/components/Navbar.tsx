@@ -14,17 +14,17 @@ export default function Navbar() {
               Digital<span className="text-sky-600"> Solution</span>
             </span>
             <span className="text-[10px] uppercase tracking-wider text-slate-500 -mt-1 font-mono font-medium">
-              Digital Assets & Services
+              Digital Products & Developer Kits
             </span>
           </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
-          <Link href="/#products" className="hover:text-slate-950 transition-colors">
-            Digital Downloads
+          <Link href="/#templates" className="hover:text-slate-950 transition-colors">
+            Templates & Kits
           </Link>
-          <Link href="/#services" className="hover:text-slate-950 transition-colors">
-            Technical Services
+          <Link href="/#enterprise" className="hover:text-slate-950 transition-colors">
+            Master Suites
           </Link>
           <Link href="/#why-us" className="hover:text-slate-950 transition-colors">
             Why Us
@@ -42,7 +42,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            href="/#products"
+            href="/#templates"
             className="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-white shadow-sm hover:shadow transition-all"
           >
             Explore Catalog

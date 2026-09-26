@@ -4,19 +4,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Digital Solution | Premium Digital Products & Web Development Services",
-  description: "Browse high-performance Next.js templates, comprehensive Figma design systems, and turnkey web engineering services with guaranteed delivery SLAs.",
+  title: "Digital Solution | Premium Digital Products & Developer Toolkits",
+  description: "Browse production-ready Next.js code templates, comprehensive Figma design systems, and developer toolkits. Instant automated digital download upon checkout.",
   keywords: [
     "Digital Solution",
     "digital products",
-    "web development services",
+    "developer kits",
     "Next.js templates",
     "Figma design system",
-    "website speed audit",
-    "code security review",
-    "Vercel deployment service",
-    "developer assets",
-    "Tailwind CSS components"
+    "Tailwind CSS components",
+    "software boilerplates",
+    "digital downloads",
+    "code templates",
+    "SaaS starter kit"
   ],
   authors: [{ name: "Digital Solution" }],
   icons: {
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title: "Digital Solution | Digital Products & Fixed-Scope Web Services",
-    description: "Curated code templates, Figma UI systems, and fixed-scope web engineering services. Instant fulfillment and verified turnaround SLAs.",
-    url: "https://digitalsolutionpro.shop",
+    title: "Digital Solution | Premium Digital Products & Developer Toolkits",
+    description: "Curated code templates, Figma UI systems, and developer boilerplates. Instant automated fulfillment with commercial licensing.",
+    url: "https://www.digitalsolutionpro.shop",
     siteName: "Digital Solution",
     locale: "en_US",
     type: "website",

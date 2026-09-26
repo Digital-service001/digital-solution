@@ -17,7 +17,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-600 max-w-sm leading-relaxed text-xs">
-              Specialized digital asset studio providing vetted UI kits, production Next.js boilerplates, and senior engineering technical services for modern web ventures.
+              Specialized digital software studio providing vetted Figma UI systems, production Next.js boilerplates, and developer toolkits for modern tech ventures.
             </p>
             
             {/* Prominent Support Email */}
@@ -35,32 +35,32 @@ export default function Footer() {
             </div>
 
             <div className="text-[11px] text-slate-500 font-mono">
-              Fulfillment via encrypted email & private repo access. Payments securely processed via Creem.
+              Fulfillment via automated encrypted email & private repo access. Payments securely processed via Creem.
             </div>
           </div>
 
           {/* Catalog links */}
           <div>
-            <h4 className="font-semibold text-slate-900 uppercase tracking-wider text-[11px] mb-3">Products & Services</h4>
+            <h4 className="font-semibold text-slate-900 uppercase tracking-wider text-[11px] mb-3">Digital Products</h4>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/#products" className="hover:text-slate-900 transition-colors">
-                  Digital Asset Packs ($12 - $88)
+                <Link href="/#templates" className="hover:text-slate-900 transition-colors">
+                  UI Kits & Templates ($12 - $88)
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-slate-900 transition-colors">
-                  Technical Audits ($110 - $116)
+                <Link href="/#enterprise" className="hover:text-slate-900 transition-colors">
+                  Software Toolkits ($98 - $116)
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-slate-900 transition-colors">
-                  Turnkey Deployment ($142 - $229)
+                <Link href="/#enterprise" className="hover:text-slate-900 transition-colors">
+                  Full SaaS Codebases ($142 - $229)
                 </Link>
               </li>
               <li>
                 <Link href="/#faq" className="hover:text-slate-900 transition-colors">
-                  Delivery SLAs & FAQs
+                  Delivery Info & FAQs
                 </Link>
               </li>
             </ul>
@@ -72,7 +72,7 @@ export default function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <Link href="/terms" className="hover:text-slate-900 transition-colors">
-                  Terms of Service
+                  Terms of Service & Licensing
                 </Link>
               </li>
               <li>
@@ -87,7 +87,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="hover:text-slate-900 transition-colors">
-                  Contact & Support SLA
+                  Contact & Support Center
                 </Link>
               </li>
             </ul>
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-[11px]">
-            © {new Date().getFullYear()} Digital Solution. All rights reserved. Registered Digital Product & Technical Service Merchant.
+            © {new Date().getFullYear()} Digital Solution. All rights reserved. Registered Digital Product Merchant.
           </p>
           <div className="flex items-center gap-4 text-slate-500 text-[11px]">
             <span>Payments powered by Creem</span>

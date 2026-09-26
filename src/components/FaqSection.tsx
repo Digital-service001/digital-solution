@@ -4,23 +4,23 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "How are digital product downloads delivered?",
-      a: "Immediately upon successful payment through Creem, you will receive an automated confirmation email with your direct download link and repository access instructions. Access is permanent and includes lifetime file updates."
+      a: "Immediately upon successful payment through Creem, you will receive an automated confirmation email with your direct download link, license key, and GitHub repository access. Fulfillment is 100% instant and automated 24/7."
     },
     {
-      q: "How does fixed-scope service fulfillment work?",
-      a: "When you purchase a technical service ($110, $116, $142, or $229), you will be redirected to an onboarding intake questionnaire where you submit your website URL, repository link, or setup credentials securely. Our senior engineers begin review within 12 hours and deliver final reports or deployments within the stated 24-72h SLA."
+      q: "What file formats and assets are included?",
+      a: "Depending on the product, you receive clean Next.js 14 / TypeScript source code archives, Figma design libraries (.fig), raw SVG vector icon files, Notion workspace duplicate links, and comprehensive documentation PDFs."
     },
     {
       q: "What is your refund policy?",
-      a: "We offer a 14-day refund policy. For digital products, if a technical defect cannot be resolved by our support team within 48 hours, a full refund is issued. For services, if work has not yet commenced or the agreed deliverable criteria are not met, you are entitled to a 100% refund."
+      a: "We offer a 14-day refund guarantee. If a downloaded codebase or digital file has a technical defect, corrupted file, or critical bug that cannot be rectified within 48 hours of reporting, a 100% full refund is issued through Creem."
     },
     {
       q: "What payment methods are supported?",
-      a: "All payments are securely handled through Creem, supporting major credit/debit cards (Visa, MasterCard, American Express), Apple Pay, and Google Pay with bank-grade 256-bit encryption."
+      a: "All payments are securely handled through Creem (our Merchant of Record), supporting major credit and debit cards (Visa, MasterCard, American Express), Apple Pay, and Google Pay with bank-grade 256-bit SSL encryption."
     },
     {
       q: "Can I use purchased templates and assets in client/commercial projects?",
-      a: "Yes. All purchases come with a royalty-free commercial license permitting unlimited end-products for yourself or your paying clients."
+      a: "Yes. All purchases come with a royalty-free commercial license permitting unlimited end-products for yourself or your paying clients. You may not resell or redistribute the raw source files as standalone stock items."
     }
   ];
 
@@ -33,7 +33,7 @@ export default function FaqSection() {
           </div>
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900">Frequently Asked Questions</h2>
           <p className="mt-2 text-slate-600 text-sm">
-            Everything you need to know about our digital deliverables, fulfillment turnaround, and guarantees.
+            Everything you need to know about our digital downloads, file formats, and commercial licensing.
           </p>
         </div>
 

@@ -21,9 +21,9 @@ export default function RefundPage() {
           </section>
 
           <section>
-            <h2 className="text-lg font-bold text-slate-900 mb-2">2. Digital Product Downloads ($12 – $88)</h2>
+            <h2 className="text-lg font-bold text-slate-900 mb-2">2. Digital Product Downloads ($12 – $229)</h2>
             <p className="mb-2">
-              Due to the non-tangible, irrevocable nature of digital downloads (code templates, Figma files, icon bundles), all sales are generally final once the download link is accessed. However, we provide refunds under the following conditions within <strong>14 days of purchase</strong>:
+              Due to the non-tangible, irrevocable nature of digital downloads (code templates, Figma files, icon bundles, and software boilerplates), sales are generally final once the download link is accessed. However, we provide refunds under the following conditions within <strong>14 days of purchase</strong>:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-slate-700">
               <li><strong>Technical Defect or Corrupted Files:</strong> If a downloaded archive has broken components, corrupt files, or critical bugs that our engineering team cannot rectify within 48 hours of reporting.</li>
@@ -33,19 +33,7 @@ export default function RefundPage() {
           </section>
 
           <section>
-            <h2 className="text-lg font-bold text-slate-900 mb-2">3. Fixed-Scope Technical Services ($110 – $229)</h2>
-            <p className="mb-2">
-              For technical audits, code reviews, and turnkey deployment packages:
-            </p>
-            <ul className="list-disc pl-5 space-y-1 text-slate-700">
-              <li><strong>Cancellation Prior to Work Commencement:</strong> If you request a cancellation before our team has begun review (within 12 hours of order placement), you are entitled to a 100% full refund.</li>
-              <li><strong>SLA Delivery Guarantee:</strong> If we fail to deliver your audit report or deployment handoff within the guaranteed SLA window without prior client communication, you may request a full refund.</li>
-              <li><strong>Revision Period:</strong> All service orders include 7 days of follow-up questions and one round of minor configuration adjustments free of charge.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-lg font-bold text-slate-900 mb-2">4. How to Request a Refund</h2>
+            <h2 className="text-lg font-bold text-slate-900 mb-2">3. How to Request a Refund</h2>
             <p>
               To submit a refund request, send an email to <a href="mailto:support@digitalsolutionpro.shop" className="text-sky-600 underline font-medium">support@digitalsolutionpro.shop</a> with your Creem Order ID, purchase date, and reason for the request. Our support team responds to all refund inquiries within <strong>24 business hours</strong>. Approved refunds are credited back to your original payment method via Creem within 3–7 banking days.
             </p>

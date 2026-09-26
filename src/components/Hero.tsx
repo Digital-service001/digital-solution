@@ -10,32 +10,32 @@ export default function Hero() {
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-sky-200 bg-sky-50/80 text-sky-700 text-xs font-semibold mb-6 shadow-xs">
           <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
-          Verified Deliverables & Guaranteed 24–72h Service Turnaround
+          100% Instant Digital Product Downloads • Full Commercial License
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-[1.15]">
           Production-Ready Digital Products &{" "}
           <span className="bg-gradient-to-r from-sky-600 via-indigo-600 to-sky-600 bg-clip-text text-transparent">
-            Technical Web Services
+            Developer Toolkits
           </span>
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed mb-10">
-          Professional digital toolkits, Next.js code boilerplates, Figma design systems, and fixed-scope implementation services built by senior engineers.
+          Professional digital toolkits, Next.js code boilerplates, Figma design systems, and full-stack software templates. Instant automated delivery directly to your inbox.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="#products"
+            href="#templates"
             className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-base shadow-sm hover:shadow transition-all text-center"
           >
             Browse Digital Downloads
           </Link>
           <Link
-            href="#services"
+            href="#enterprise"
             className="w-full sm:w-auto px-6 py-3.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-slate-800 font-semibold text-base transition-colors text-center shadow-xs"
           >
-            Explore Fixed Services
+            Explore Master Suites
           </Link>
         </div>
 
@@ -45,7 +45,7 @@ export default function Hero() {
             <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" />
             </svg>
-            Instant Digital Fulfillment
+            Instant File Download
           </div>
           <div className="flex items-center justify-center gap-2">
             <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">

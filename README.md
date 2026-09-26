@@ -1,4 +1,4 @@
-# Digital Solution — Digital Products & Web Services Storefront
+# Digital Solution — Premium Digital Products & Developer Kits
 
 A high-converting, modern white digital storefront designed specifically to pass **Creem Merchant Compliance & Underwriting Review**. Ready for one-click deployment to **Vercel** via **GitHub**.
 
@@ -6,19 +6,19 @@ A high-converting, modern white digital storefront designed specifically to pass
 
 ## 💎 Features & Compliance Readiness
 
-- **Brand Name:** **Digital Solution** (Clean, professional branding)
+- **100% Digital Products:** Strictly downloadable software, codebases, templates, and Figma assets with instant automated email fulfillment (zero prohibited services).
+- **Brand Name:** **Digital Solution**
 - **Official Support Email:** `support@digitalsolutionpro.shop`
-- **Modern White Theme:** Clean typography, high-contrast layouts, subtle cards, and accessible components.
-- **Enhanced SEO:** Sections including "Why Choose Digital Solution", "How It Works", "Modern Frameworks", and FAQ schema.
+- **Modern White Theme:** High-contrast typography, clean cards, responsive layouts, and accessible UI components.
 - **Exact Pricing Catalog:** Maps all 13 required price points cleanly:
-  - **Digital Downloads:** $12, $22, $24, $38, $39, $44, $66, $76, $88
-  - **Fixed-Scope Services:** $110, $116, $142, $229
-- **Compliance Architecture:** Zero AI-wrapper ambiguity. Uses clear, defensible deliverables (instant ZIP/Figma files and 24-72h technical audit & deployment SLAs).
+  - **UI Kits & Templates:** $12, $22, $24, $38, $39, $44, $66, $76, $88
+  - **Advanced Boilerplates & Master Suites:** $98, $116, $142, $229
+- **Compliance Architecture:** Zero AI-wrapper ambiguity. Instant downloadable ZIP files, Figma libraries, and private GitHub repository invitations.
 - **Mandatory Compliance Pages:**
-  - `/terms` — Terms of Service & Commercial Licensing
+  - `/terms` — Terms of Service & Software Licensing
   - `/privacy` — Privacy Policy (GDPR/CCPA compliant)
-  - `/refund` — Transparent 14-day Refund & Cancellation Policy
-  - `/contact` — Contact details, support ticketing, and fulfillment desk
+  - `/refund` — Transparent 14-day Refund Policy for digital files
+  - `/contact` — Customer Support Desk & Contact Info
 - **Tech Stack:** Next.js 14 (App Router) + Tailwind CSS (Zero external configuration needed for Vercel).
 
 ---
@@ -31,7 +31,7 @@ A high-converting, modern white digital storefront designed specifically to pass
 3. Review the modified files.
 4. In the summary box at the bottom-left, type:
    ```text
-   Update website to modern white style, new email, and SEO sections
+   Rebuild storefront as 100% pure digital products for Creem compliance
    ```
 5. Click **Commit to main**, then click **Push origin**.
 6. Vercel will automatically build and deploy the update in under 60 seconds!
